@@ -12,6 +12,9 @@ package com.mycompany.poo_unidad01_03_gswg_rnwe;
 public class POO_Unidad01_03_GSWG_RNWE {
 
     public static void main(String[] args) {
+        var asignatura= new Asignatura();
+        asignatura.nombreAsignatura="Matematicas";
+        asignatura.creditos=120;
         var carrera= new Carrera();
         carrera.nombreCarrera="Derecho";
         carrera.numeroAlumnos=100;

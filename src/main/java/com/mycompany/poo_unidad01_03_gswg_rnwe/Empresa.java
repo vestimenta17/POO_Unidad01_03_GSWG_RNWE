@@ -12,4 +12,9 @@ public class Empresa {
     String nombreEmpresa;
     Empleado trabajador;
     Departamento secciones;
+    public boolean codigoValido(){
+        var retorno=false;
+        
+        return retorno;
+    }
 }
